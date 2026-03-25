@@ -1,0 +1,13 @@
+# Sensitive config file (contains DB password)
+config.php
+
+# PHP environment file
+php.ini
+
+# OS junk files
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# Logs
+*.log

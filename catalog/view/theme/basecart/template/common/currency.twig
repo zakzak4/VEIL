@@ -1,0 +1,15 @@
+{% if currencies|length > 1 %}
+<form action="{{ action }}" method="post" enctype="multipart/form-data" id="form-currency">
+  <div class="btn-group">
+      {% for currency in currencies %}
+      {% if currency.symbol_left %}
+      <button type="button" class="btn btn-default currency-select" name="{{ currency.code }}">{{ currency.code }}</button>
+      {% else %}
+      <button type="button" class="btn btn-default currency-select" name="{{ currency.code }}">{{ currency.code }}</button>
+      {% endif %}
+      {% endfor %}
+  </div>
+  <input type="hidden" name="code" value="" />
+  <input type="hidden" name="redirect" value="{{ redirect }}" />
+</form>
+{% endif %}

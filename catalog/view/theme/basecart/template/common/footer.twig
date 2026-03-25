@@ -1,0 +1,48 @@
+<div class="container">
+  <footer>
+      <div class="row">
+        {% if informations %}
+        <div class="col-sm-3">
+          <h4>{{ text_information }}</h4>
+          <ul class="list-group">
+            {% for information in informations %}
+            <li class="list-group-item"><a href="{{ information.href }}">{{ information.title }}</a></li>
+            {% endfor %}
+          </ul>
+        </div>
+        {% endif %}
+        <div class="col-sm-3">
+          <h4>{{ text_service }}</h4>
+          <ul class="list-group">
+            <li class="list-group-item"><a href="{{ contact }}">{{ text_contact }}</a></li>
+            <li class="list-group-item"><a href="{{ return }}">{{ text_return }}</a></li>
+            <li class="list-group-item"><a href="{{ sitemap }}">{{ text_sitemap }}</a></li>
+          </ul>
+        </div>
+        <div class="col-sm-3">
+          <h4>{{ text_extra }}</h4>
+          <ul class="list-group">
+            <li class="list-group-item"><a href="{{ manufacturer }}">{{ text_manufacturer }}</a></li>
+            <li class="list-group-item"><a href="{{ voucher }}">{{ text_voucher }}</a></li>
+            <li class="list-group-item"><a href="{{ affiliate }}">{{ text_affiliate }}</a></li>
+            <li class="list-group-item"><a href="{{ special }}">{{ text_special }}</a></li>
+          </ul>
+        </div>
+        <div class="col-sm-3">
+          <h4>{{ text_account }}</h4>
+          <ul class="list-group">
+            <li class="list-group-item"><a href="{{ account }}">{{ text_account }}</a></li>
+            <li class="list-group-item"><a href="{{ order }}">{{ text_order }}</a></li>
+            <li class="list-group-item"><a href="{{ wishlist }}">{{ text_wishlist }}</a></li>
+            <li class="list-group-item"><a href="{{ newsletter }}">{{ text_newsletter }}</a></li>
+          </ul>
+        </div>
+      </div>
+      <p class="text-center text-uppercase text-muted powered">
+  Designed by <a href="//isaakmaisis.gr/" target="_blank">Isaak Maisis</a>. 
+  Powered by <a href="https://www.opencart.com/" target="_blank">OpenCart</a>.
+</p>
+  </footer>
+</div>
+</body>
+</html>

@@ -1,0 +1,450 @@
+body, #content, .breadcrumb, .well, .modal-content, .tab-content {
+    background-color: #121212 !important;
+    color: #e0e0e0 !important;
+}
+
+h1, h2, h3, h4, .h1, .h2, .h3, legend, label.control-label {
+    color: #ffffff !important;
+}
+
+.product-thumb .caption h4 a {
+  color: #ffffff !important;
+}
+
+nav#top, #top, .navbar-default, #menu {
+    background-color: #111111 !important;
+    border-bottom: 1px solid #222 !important;
+}
+
+nav#top-links li a, nav#top-links li span, #top .btn-link {
+    color: #ffffff !important;
+}
+
+nav#top-links li a:hover, #top .btn-link:hover {
+    color: #ffffff !important;
+}
+
+#search .form-control, .form-control, select.form-control {
+    background-color: #1a1a1a !important;
+    color: #ffffff !important;
+    border: 1px solid #333 !important;
+}
+
+#search .btn-default, .btn-default {
+    background-color: #252525 !important;
+    color: #ffffff !important;
+    border: 1px solid #333 !important;
+}
+
+.product-thumb, .list-group-item {
+    background-color: #1a1a1a !important;
+    border: 1px solid #222 !important;
+    color: #888 !important;
+}
+
+.product-thumb:hover {
+    background: #252525 !important;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.5) !important;
+}
+
+.product-thumb .image img, .img-responsive {
+    mix-blend-mode: screen !important;
+    opacity: 0.9 !important;
+}
+
+.btn-primary {
+    background-color: #1a1a1a !important;
+    color: #ffffff !important;
+    border: 1px solid #333 !important;
+}
+
+.btn-primary:hover {
+    background-color: #ffffff !important;
+    color: #1a1a1a !important;
+}
+
+footer {
+    background-color: #121212 !important; 
+    border-top: 1px solid #333 !important;
+    padding-bottom: 40px;
+    margin-top: 50px;
+}
+
+footer .col-sm-3 {
+    background-color: #121212 !important; 
+    border: 1px solid #222 !important;
+    padding: 20px !important;
+    margin-bottom: 20px;
+    border-radius: 4px;
+}
+
+footer h5 {
+    color: #ffffff !important;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #333;
+    padding-bottom: 10px;
+}
+
+footer a {
+    color: #888 !important;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: #ffffff !important; 
+}
+
+footer .col-sm-3 {
+    background-color: #121212 !important; 
+    border: 1px solid #333 !important;
+    padding: 25px !important;
+    margin-bottom: 20px !important;
+    width: 23% !important; 
+    margin-right: 2% !important;
+    float: left !important;
+    border-radius: 4px;
+}
+
+footer .col-sm-3:last-child {
+    margin-right: 0 !important;
+}
+
+.img-thumbnail, 
+.owl-item img, 
+.swiper-slide img {
+    background-color: #121212 !important; 
+    border: 1px solid #333 !important;
+    padding: 15px !important;
+    mix-blend-mode: screen !important; 
+    opacity: 0.8;
+}
+
+footer p {
+    text-align: center;
+    margin-top: 20px;
+    color: #444 !important;
+    font-size: 10px;
+    letter-spacing: 2px;
+}
+
+header {
+    background-color: #121212 !important; 
+    border-bottom: 1px solid #333 !important; 
+}
+
+nav#top {
+    background-color: #121212 !important;
+    border-bottom: 1px solid #333 !important;
+    padding: 5px 0;
+}
+
+#menu, .navbar-default {
+    background-color: #121212 !important;
+    border: 1px solid #333 !important;
+    box-shadow: none !important; 
+}
+
+body {
+    background-color: #121212 !important;
+}
+
+nav#top, 
+header, 
+.navbar, 
+.navbar-default {
+    border: none !important;              
+    box-shadow: none !important;          
+    background-color: #121212 !important; 
+}
+
+header {
+    border-bottom: 1px solid #333 !important; 
+    margin-bottom: 0 !important;
+    padding-bottom: 20px !important;
+}
+
+#common-home .container {
+    margin-top: 0 !important;
+}
+
+nav#top, 
+header, 
+.navbar, 
+.navbar-default, 
+.navbar-header, 
+.navbar-collapse {
+    background-color: #121212 !important; 
+    border: none !important;              
+    box-shadow: none !important;          
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+header {
+    border-bottom: 1px solid #333 !important; 
+    padding: 20px 0 !important;               
+}
+
+#common-home .container, #common-home #content {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+    background-color: #121212 !important;
+}
+
+.dropdown-menu .table td a {
+    color: #ffffff !important;
+}
+
+.dropdown-menu .table td,
+.dropdown-menu .table tr,
+.dropdown-menu table td,
+.dropdown-menu table tr {
+    border: none !important;
+    border-top: none !important;
+    border-bottom: none !important;
+}
+
+.dropdown-menu {
+    background-color: #121212 !important; 
+    border: 1px solid #333 !important;      
+    box-shadow: 0 6px 12px rgba(0,0,0,0.5) !important;
+    padding: 10px 0 !important;
+}
+
+.dropdown-menu > li > a {
+    color: #ffffff !important;
+    padding: 10px 20px !important;
+}
+
+.dropdown-menu > li > a:hover {
+    background-color: #333 !important;      
+    color: #ffffff !important;            
+    background-image: none !important;
+}
+
+.dropdown-menu .see-all {
+    background-color: #1a1a1a !important; 
+    border-top: 1px solid #333 !important;
+    color: #ffffff !important;
+}
+
+.nav > li > a:hover, .nav > li > a:focus, .nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
+    background-color: #333 !important;
+    color: #ffffff !important;
+}
+
+.product-thumb .button-group button, 
+.product-thumb .btn-default, 
+.product-thumb .btn-primary,
+.product-thumb button {
+    background-color: #1a1a1a !important; 
+    background-image: none !important;
+    border: 1px solid #333 !important;      
+    color: #ffffff !important;
+    text-shadow: none !important;
+    text-transform: uppercase;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.product-thumb .button-group button:hover, 
+.product-thumb .btn-default:hover, 
+.product-thumb .btn-primary:hover {
+    background-color: #ffffff !important; 
+    color: #1a1a1a !important;
+}
+
+.product-thumb .button-group button i, 
+.product-thumb .fa {
+    color: #ffffff !important;
+}
+
+.table-hover > tbody > tr:hover {
+    background-color: #1a1a1a !important; 
+}
+
+.table-bordered, .table-bordered > tbody > tr > td, .table-bordered > thead > tr > th {
+    border: 1px solid #333 !important; 
+    background-color: #121212 !important; 
+}
+
+.table > tbody > tr > td {
+    color: #e0e0e0 !important;
+}
+
+.table thead td {
+    background-color: #1a1a1a !important;
+    color: #ffffff !important;
+    font-weight: bold;
+}
+
+.table thead td, 
+.table thead th {
+    background-color: #121212 !important; 
+    color: #ffffff !important;             
+    border: 1px solid #333 !important;      
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+
+.table-bordered > tbody > tr > td {
+    border: 1px solid #333 !important;      
+    background-color: #121212 !important;
+}
+
+.nav-tabs {
+    border-bottom: 1px solid #333 !important; 
+}
+
+.nav-tabs > li > a {
+    background-color: #1a1a1a !important; 
+    border: 1px solid #333 !important;
+    color: #888 !important;
+    transition: all 0.3s ease;
+}
+
+.nav-tabs > li.active > a, 
+.nav-tabs > li.active > a:hover, 
+.nav-tabs > li.active > a:focus {
+    background-color: #121212 !important;
+    color: #ffffff !important;
+    border: 1px solid #333 !important;
+    border-bottom-color: transparent !important;
+}
+
+.nav-tabs > li > a:hover {
+    color: #ffffff !important;
+    background-color: #252525 !important;
+    border-color: #333 !important;
+}
+
+.nav-tabs i, .tab-content {
+    color: #ffffff !important;
+    background-color: #121212 !important;
+}
+
+.panel-default, 
+.panel-default > .panel-heading, 
+.panel-collapse, 
+.panel-body {
+    background-color: #121212 !important;
+    border: 1px solid #333 !important;
+    color: #ffffff !important;
+}
+
+.panel-heading .panel-title, 
+.panel-heading .panel-title a {
+    color: #ffffff !important;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+
+.panel-default > .panel-heading {
+    background-color: #1a1a1a !important;
+}
+
+.required .control-label:before {
+    color: #ffffff !important;
+}
+
+label.control-label {
+    color: #e0e0e0 !important;
+}
+
+.table-responsive .table-bordered, 
+.table-responsive .table-bordered > tbody > tr > td, 
+.table-responsive .table-bordered > thead > tr > th, 
+.table-responsive .table-bordered > tfoot > tr > td {
+    border: 1px solid #333 !important;
+    background-color: #121212 !important;
+    color: #ffffff !important;
+}
+
+.table-responsive thead td {
+    background-color: #1a1a1a !important;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.table-responsive tfoot td:first-child {
+    text-align: right;
+    font-weight: bold;
+}
+
+.table-responsive tbody td a {
+    color: #ffffff !important;
+}
+.navbar-brand {
+    margin-top: -35px !important;
+}
+
+ul.thumbnails {
+  display: flex !important;
+  justify-content: center !important;
+  background: transparent !important;
+}
+
+ul.thumbnails li {
+  background: transparent !important;
+  width: auto !important;
+}
+
+ul.thumbnails a.thumbnail {
+  background: transparent !important;
+  border: none !important;
+}
+
+ul.thumbnails {
+  background: transparent !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+ul.thumbnails li {
+  background: transparent !important;
+  width: 100% !important;
+  text-align: center;
+}
+
+ul.thumbnails li a.thumbnail {
+  background: transparent !important;
+  border: none !important;
+  display: inline-block;
+}
+
+ul.thumbnails {
+  text-align: center;
+}
+
+ul.thumbnails li {
+  display: inline-block;
+  float: none;
+}
+
+ul.thumbnails li a.thumbnail img {
+  width: 400px;
+  height: auto; 
+}
+
+.breadcrumb a {
+  color: #888 !important;
+}
+
+.breadcrumb li.active {
+  color: #888 !important;
+}
+
+#button-cart {
+  background-color: #1a1a1a !important;
+  border-color: #333 !important;
+  color: #ffffff !important;
+}
+
+#button-cart:hover {
+  background-color: #ffffff !important;
+  color: #1a1a1a !important;
+}
