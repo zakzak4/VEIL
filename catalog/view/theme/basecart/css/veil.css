@@ -70,6 +70,8 @@ footer {
     margin-top: 50px;
 }
 
+
+
 footer .col-sm-3 {
     background-color: #121212 !important; 
     border: 1px solid #222 !important;
@@ -256,9 +258,33 @@ header {
     color: #1a1a1a !important;
 }
 
-.product-thumb .button-group button i, 
-.product-thumb .fa {
+.btn-group .btn-default {
+    background-color: #1a1a1a !important;
+    border: 1px solid #333 !important;
     color: #ffffff !important;
+}
+
+.btn-group .btn-default:hover {
+    background-color: #ffffff !important;
+    color: #1a1a1a !important;
+}
+
+.btn-group .btn-default:hover i,
+.btn-group .btn-default:hover .fa {
+    color: #1a1a1a !important;
+}
+
+.product-thumb .button-group button i {
+    color: #ffffff !important;
+}
+
+.product-thumb .button-group button:hover i {
+    color: #1a1a1a !important;
+}
+
+.product-thumb .button-group button:hover i, 
+.product-thumb .button-group button:hover .fa {
+    color: #1a1a1a !important;
 }
 
 .table-hover > tbody > tr:hover {
