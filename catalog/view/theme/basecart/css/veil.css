@@ -474,3 +474,15 @@ ul.thumbnails li a.thumbnail img {
   background-color: #ffffff !important;
   color: #1a1a1a !important;
 }
+
+a.list-group-item[href*="account/download"],
+a.list-group-item[href*="account/recurring"],
+a.list-group-item[href*="account/reward"],
+a.list-group-item[href*="account/transaction"] {
+  display: none !important;
+}
+
+#information-contact .panel-body .row {
+  display: flex !important;
+  align-items: center !important;
+}

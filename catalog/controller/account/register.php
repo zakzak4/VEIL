@@ -260,8 +260,14 @@ class ControllerAccountRegister extends Controller {
 			}
 		}
 
-		if ((utf8_strlen(html_entity_decode($this->request->post['password'], ENT_QUOTES, 'UTF-8')) < 4) || (utf8_strlen(html_entity_decode($this->request->post['password'], ENT_QUOTES, 'UTF-8')) > 40)) {
-			$this->error['password'] = $this->language->get('error_password');
+		// if ((utf8_strlen(html_entity_decode($this->request->post['password'], ENT_QUOTES, 'UTF-8')) < 4) || (utf8_strlen(html_entity_decode($this->request->post['password'], ENT_QUOTES, 'UTF-8')) > 40)) {
+		// 	$this->error['password'] = $this->language->get('error_password');
+		// }
+		
+		$password = html_entity_decode($this->request->post['password'], ENT_QUOTES, 'UTF-8');
+
+		if (utf8_strlen($password) < 8 || utf8_strlen($password) > 40 || !preg_match('/[A-Z]/', $password) || !preg_match('/[0-9]/', $password)) {
+			$this->error['password'] = 'Password must be at least 8 characters and contain at least one uppercase letter and one number.';
 		}
 
 		if ($this->request->post['confirm'] != $this->request->post['password']) {
